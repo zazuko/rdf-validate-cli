@@ -1,0 +1,15 @@
+{
+  "name": "rdf-datatype-validation-cli",
+  "version": "0.0.0",
+  "description": "CLI tool to validate RDF data",
+  "main": "index.js",
+  "bin": {
+    "rdf-validate": "index.js"
+  },
+  "author": "Martin Maillard <martin.maillard@zazuko.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "rdf-datatype-validation": "github:zazuko/rdf-datatype-validation",
+    "rdf-utils-fs": "2.1.0"
+  }
+}
