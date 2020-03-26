@@ -19,3 +19,9 @@ $ npm link
 $ npx rdf-validate path/to/file.nt
 ```
 
+
+## Limitations
+
+Line numbers are only correct when validating a n-triple file without empty 
+lines.
+
