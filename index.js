@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const fromFile = require('rdf-utils-fs/fromFile')
-const { validateQuad } = require('rdf-datatype-validation')
+const { validateQuad } = require('rdf-validate-datatype')
 
 const filePath = process.argv[2]
 
